@@ -1,0 +1,46 @@
+.loader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    z-index: 2;
+    animation-duration: 800s;
+    animation-name: loader;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    opacity: 0;
+}
+
+@keyframes loader{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+.dot{
+    animation-name: dot_loader;
+    position: relative;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 15px;
+    height: 50px;
+    color: black;
+}
+    @keyframes dot_loader{
+
+    }
